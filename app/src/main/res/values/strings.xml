@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cuentas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_friends">Amigos</string>
+    <string name="action_historial">Historial</string>
+    <string name="action_inicio">Inicio</string>
+    <string name="tab_historial">Cuentas: Historial</string>
+    <string name="tab_amigos">Cuentas: Amigos</string>
+    <string name="title_activity_cuenta__paso1">Cuenta_Paso1</string>
+    <string name="title_activity_cuenta__paso2">Cuenta_Paso2</string>
+    <string name="title_activity_amigo__detalle">Amigo_Detalle</string>
+    <string name="title_activity_cuenta__detalle">Cuenta_Detalle</string>
+
+</resources>

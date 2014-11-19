@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.sdomingu.cuentas" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Inicio_Controller"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Historial_Controller"
+            android:label="@string/tab_historial" />
+        <activity
+            android:name=".Amigos_Controller"
+            android:label="@string/tab_amigos" >
+        </activity>
+        <activity
+            android:name="cl.sdomingu.cuentas.Cuenta_Paso1"
+            android:label="@string/title_activity_cuenta__paso1" >
+        </activity>
+        <activity
+            android:name="cl.sdomingu.cuentas.Cuenta_Paso2"
+            android:label="@string/title_activity_cuenta__paso2" >
+        </activity>
+        <activity
+            android:name="cl.sdomingu.cuentas.Amigo_Detalle"
+            android:label="@string/title_activity_amigo__detalle" >
+        </activity>
+        <activity
+            android:name="cl.sdomingu.cuentas.Cuenta_Detalle"
+            android:label="@string/title_activity_cuenta__detalle" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Home">
+    <item android:id="@+id/action_inicio" android:title="@string/action_inicio"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_friends" android:title="@string/action_friends"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item
+        android:id="@+id/nueva_cuenta"
+        android:title="Agregar Cuenta"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+</menu>
