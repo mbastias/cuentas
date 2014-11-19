@@ -13,7 +13,7 @@ package cl.sdomingu.cuentas;
 public class Inicio_Tab3_Total extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.tab3_historial, container, false);
+        View view = inflater.inflate(R.layout.amigos_total, container, false);
         TextView textview = (TextView) view.findViewById(R.id.tabtextview);
         textview.setText("Tres");
         return view;

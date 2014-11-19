@@ -70,7 +70,7 @@ public class Inicio_Controller extends Activity {
             }
 
             case R.id.nueva_cuenta:{
-                Intent act = new Intent(this, Cuenta_Paso1.class);
+                Intent act = new Intent(this, Cuenta_Paso2.class);
                 startActivity(act);
                 return true;
             }

@@ -13,7 +13,7 @@ public class Historial_Tab1_Actividades {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.tab1_inicio, container, false);
+        View view = inflater.inflate(R.layout.historial_actividades, container, false);
         TextView textview = (TextView) view.findViewById(R.id.tabtextview);
         textview.setText("Uno");
         return view;

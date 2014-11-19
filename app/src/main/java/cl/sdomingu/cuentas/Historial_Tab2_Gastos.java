@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class Historial_Tab2_Gastos {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.tab1_inicio, container, false);
+        View view = inflater.inflate(R.layout.historial_gastos, container, false);
         TextView textview = (TextView) view.findViewById(R.id.tabtextview);
         textview.setText("Uno");
         return view;
