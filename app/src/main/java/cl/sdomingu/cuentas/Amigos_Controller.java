@@ -12,7 +12,7 @@ import android.view.MenuItem;
 public class Amigos_Controller extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tab1_inicio);
+        setContentView(R.layout.amigos_medeben);
 
 
     }
@@ -33,19 +33,21 @@ public class Amigos_Controller extends Activity{
         // Handle presses on the action bar items
         switch (item.getItemId()) {
 
-            case R.id.action_historial:{
-                Intent act = new Intent(this, Historial_Controller.class); startActivity(act);
-
+            case R.id.action_historial: {
+                Intent act = new Intent(this, Historial_Controller.class);
+                startActivity(act);
                 return true;
             }
 
-            case R.id.action_inicio:{
-                Intent act = new Intent(this, Inicio_Controller.class);
-                startActivity(act);
+            case R.id.action_inicio: {
+                Intent act1 = new Intent(this, Inicio_Controller.class);
+                startActivity(act1);
+                return true;
             }
-            case R.id.nueva_cuenta:{
-                Intent act = new Intent(this, Cuenta_Paso1.class);
-                startActivity(act);
+
+            case R.id.nueva_cuenta: {
+                Intent act2 = new Intent(this, Cuenta_Paso1.class);
+                startActivity(act2);
                 return true;
             }
 

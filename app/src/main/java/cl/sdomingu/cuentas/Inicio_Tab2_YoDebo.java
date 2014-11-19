@@ -13,7 +13,7 @@ import android.widget.TextView;
         public class Inicio_Tab2_YoDebo extends Fragment {
             public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                      Bundle savedInstanceState){
-                View view = inflater.inflate(R.layout.tab1_inicio, container, false);
+                View view = inflater.inflate(R.layout.amigos_debo, container, false);
                 TextView textview = (TextView) view.findViewById(R.id.tabtextview);
         textview.setText("Dos");
         return view;
