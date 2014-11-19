@@ -8,7 +8,7 @@
 
     <item
         android:id="@+id/nueva_cuenta"
-        android:title="Agregar Cuenta"
+        android:title="Agregar Cuenta "
         android:orderInCategory="100"
         android:showAsAction="always"/>
 </menu>
