@@ -15,10 +15,10 @@ import android.content.Intent;
 public class Historial_Controller extends Activity{
 
 
-    ActionBar.Tab tab1, tab2;
+    ActionBar.Tab tab_actividades, tab_gastos;
 
-    Fragment fragmentTab1 = new Inicio_Tab1_MeDeben();
-    Fragment fragmentTab2 = new Inicio_Tab2_YoDebo();
+    Fragment fragmentTab_actividades = new Inicio_Tab1_MeDeben();
+    Fragment fragmentTab_gastos = new Inicio_Tab2_YoDebo();
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,16 +28,16 @@ public class Historial_Controller extends Activity{
         ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-        tab1 = actionBar.newTab().setText("Actividades");
-        tab2 = actionBar.newTab().setText("Gastos");
+        tab_actividades = actionBar.newTab().setText("Actividades");
+        tab_gastos = actionBar.newTab().setText("Gastos");
 
 
-        tab1.setTabListener(new MyTab_Listener(fragmentTab1));
-        tab2.setTabListener(new MyTab_Listener(fragmentTab2));
+        tab_actividades.setTabListener(new MyTab_Listener(fragmentTab_actividades));
+        tab_gastos.setTabListener(new MyTab_Listener(fragmentTab_gastos));
 
 
-        actionBar.addTab(tab1);
-        actionBar.addTab(tab2);
+        actionBar.addTab(tab_actividades);
+        actionBar.addTab(tab_gastos);
 
     }
 
