@@ -13,7 +13,7 @@ public class Historial_Tab2_Gastos {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.historial_gastos, container, false);
-        TextView textview = (TextView) view.findViewById(R.id.tabtextview);
+        TextView textview = (TextView) view.findViewById(R.id.textview_gastos);
         textview.setText("Uno");
         return view;
     }

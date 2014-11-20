@@ -12,28 +12,63 @@
         android:layout_height="wrap_content"
         android:id="@+id/relativeLayout">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView"
 
-            />
         <EditText
             android:id="@+id/descripcion"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:hint="dljkfsñsk"/>
+            android:hint="Descripción"/>
 
 
         <EditText
             android:id="@+id/precio"
+            android:hint="$ 0"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
             android:layout_below="@id/descripcion"
             />
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@id/relativeLayout">
+
+        <Button
+            android:id="@+id/quienPagoBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagado por:"
+            android:onClick="mostrarDialogo"
+            />
+
+        <Button
+            android:id="@+id/buttonPartes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En partes iguales"
+            android:layout_below="@id/quienPagoBoton"
+            />
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3"
+        android:layout_below="@id/relativeLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:text="Foto"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+
+        </RelativeLayout>
 
 
 
