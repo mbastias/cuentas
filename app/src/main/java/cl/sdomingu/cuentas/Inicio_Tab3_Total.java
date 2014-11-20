@@ -32,7 +32,7 @@ public class Inicio_Tab3_Total extends ListFragment {
 
         //String[] amigos_lista = getResources().getStringArray(R.array.amigos_lista);
 
-        Cuenta_Adapter adapter = new Cuenta_Adapter(getActivity(), lista_total, R.layout.total_list_conf);
+        Cuenta_Adapter_Total adapter = new Cuenta_Adapter_Total(getActivity(), lista_total, R.layout.total_list_conf);
         setListAdapter(adapter);
     }
 
