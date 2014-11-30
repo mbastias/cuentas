@@ -21,6 +21,7 @@ public class Mis_Cuentas {
         mi_lista_cuentas.add(new Single_Cuenta("Jorge",false,1000));
         mi_lista_cuentas.add(new Single_Cuenta("Jorge",false,500));
         mi_lista_cuentas.add(new Single_Cuenta("Pamela",true,5000));
+        mi_lista_cuentas.add(new Single_Cuenta("Marcelo",true,5000));
 
     }
 
